@@ -140,6 +140,3 @@ def app_vpd():
 
     st.subheader(f"📊 Historial de avances VPD – {anio_gestion}")
     st.dataframe(df[df["Año"] == anio_gestion].sort_values(by="Fecha de Carga", ascending=False))
-
-
-
